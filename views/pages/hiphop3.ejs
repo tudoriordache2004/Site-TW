@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <%-include("../partials/head.ejs")%>
+</head>
+<body>
+    <div id="header_site">
+        <%-include("../partials/header.ejs")%>
+    </div>
+    <br>
+
+    <div id="TopSales">
+        <h1> --------------------HIP HOP-------------------- </h1>
+    </div>
+
+    <div class="Albums">
+        <!-- Adaugă aici blocurile pentru fiecare album, similar cu pagina hiphop1.html -->
+        <!-- Exemplu de album -->
+        <div class="Album">
+            <img class="front" src="images/NouAlbum3.webp" alt="NouAlbum3" width="300">
+            <img class="back" src="images/NouAlbum4.webp" alt="NouAlbum4" width="300">
+            <div class="AlbumInfo"> Artist - Nume Album (LP) 
+                <br>
+                <p> 219.99 <del> 269.99 </del> RON </p>
+            </div>
+        </div>
+        <!-- Repetă structura pentru alte albume -->
+    </div>
+
+    <div class="pagination">
+        <a href="/hiphop2"> < </a>
+        <a href="/hiphop1"> 1 </a>
+        <a href="/hiphop2"> 2 </a>
+        <a href="/hiphop3" class="active"> 3 </a>
+        <a href="/hiphop1"> > </a>
+    </div>
+
+    <footer id="footer" class="footer">
+        <%-include("../partials/footer.ejs")%>
+    </footer>
+    
+    </body>
+</html>

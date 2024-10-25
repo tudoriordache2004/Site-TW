@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <%-include("../partials/head.ejs")%>
+</head>
+<body>
+    <div id="header_site">
+        <%-include("../partials/header.ejs")%>
+    </div>
+    <br>
+
+    <div id="TopSales">
+    <h1> --------------------TOP SALES-------------------- </h1>
+    </div>
+
+    <div id="albumContainer" class="Albums">
+    <div class="Album">
+        <img class="front" src="/resources/images/Madvillainy1.webp" alt="Madvillainy1" width="300">
+        <img class="back" src="/resources/images/Madvillainy2.webp" alt="Madvillainy2" width="300">
+        <div class="AlbumInfo" > Madvillain - Madvillainy (LP) 
+        </div>
+            <br> 
+            <p> 129.99 <del> 159.99 </del> RON </p>
+        <button class="addToCartBtn">Adaugă în Coș</button>
+    </div>
+
+    <div class="Album">
+        <img class="front" src="/resources/images/ALLA1.webp" alt="ALLA1" width="300"> </a>
+        <img class="back" src="/resources/images/ALLA2.webp" alt="ALLA2" width="300"> </a>
+        <div class="AlbumInfo"> A$AP ROCKY - At.Long.Last.A$AP (LP)
+        </div>
+            <br> 
+            <p> 179.99 RON </p>
+        <button class="addToCartBtn">Adaugă în Coș</button>
+    </div>
+
+    <div class="Album">
+        <img class="front" src="/resources/images/Eternal1.webp" alt="Eternal1" width="300">
+        <img class="back" src="/resources/images/Eternal2.webp" alt="Eternal2" width="300">
+        <div class="AlbumInfo"> Ariana Grande - Eternal Sunshine (LP) 
+        </div>
+            <br>
+            <p> 169.99 <del> 199.99 </del> RON </p>
+        <button class="addToCartBtn">Adaugă în Coș</button>
+    </div>
+
+    <br>
+
+    <div class="Album">
+        <img class="front" src="/resources/images/Bends1.webp" alt="Bends1" width="300">
+        <img class="back" src="/resources/images/Bends2.webp" alt="Bends2" width="300">
+        <div class="AlbumInfo"> Radiohead - The Bends (LP) 
+        </div>
+            <br>
+            <p> 199.99 RON </p>
+        <button class="addToCartBtn">Adaugă în Coș</button>
+    </div>
+
+    <div class="Album">
+        <img class="front" src="/resources/images/Pinata1.webp" alt="Pinata1" width="300">
+        <img class="back" src="/resources/images/Pinata2.webp" alt="Pinata2" width="300">
+        <div class="AlbumInfo"> Freddie Gibbs & Madlib - Pinata (LP) 
+        </div>
+            <br>
+            <p> 129.99 <del> 159.99 </del> RON </p>
+        <button class="addToCartBtn">Adaugă în Coș</button>
+    </div>
+    </div>
+
+    <div class="pagination">
+        <a href="/main"> < </a>
+        <a href="/main"> 1 </a>
+        <a href="/page2" class="active"> 2 </a>
+        <a href="/page3"> 3 </a>
+        <a href="/page3"> > </a>
+        </div>
+    
+        <footer id="footer" class="footer">
+            <%-include("../partials/footer.ejs")%>
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <%-include("../partials/head.ejs")%>
+</head>
+<body>
+    <div id="header_site">
+        <%-include("../partials/header.ejs")%>
+    </div>
+    <br>
+
+    <div id="TopSales">
+        <h1>--------------------TOP SALES--------------------</h1>
+    </div>
+
+    <div id="albumContainer" class="Albums">
+        <div class="Album" data-artist = "The Weeknd", data-genre = "Pop">
+            <img class="front" src="/resources/images/Beauty1.webp" alt="Beauty1" width="300">
+            <img class="back" src="/resources/images/Beauty2.webp" alt="Beauty2" width="300">
+            <div class="AlbumInfo"> The Weeknd - Beauty Behind The Madness (LP)
+            </div>
+                <br>
+                <p>149.99 <del>219.99</del> RON</p>
+            <button class="addToCartBtn">Adaugă în Coș</button>
+        </div>
+
+        <div class="Album" data-artist = "KIDS SEE GHOSTS", data-genre="Rap">
+            <img class="front" src="/resources/images/KSG1.webp" alt="KSG1" width="300">
+            <img class="back" src="/resources/images/KSG2.webp" alt="KSG2" width="300">
+            <div class="AlbumInfo"> KIDS SEE GHOSTS - KIDS SEE GHOSTS (LP)
+            </div>
+                <br>
+                <p>189.99 <del>259.99</del> RON</p>
+            <button class="addToCartBtn">Adaugă în Coș</button>
+        </div>
+
+        <div class="Album" data-artist = "Tyler, The Creator", data-genre="Experimental Hip-Hop">
+            <img class="front" src="/resources/images/Call1.webp" alt="Call1" width="300">
+            <img class="back" src="/resources/images/Call2.webp" alt="Call2" width="300">
+            <div class="AlbumInfo"> Tyler, The Creator - CALL ME IF YOU GET LOST (LP)
+            </div>
+                <br>
+                <p>219.99 <del>279.99</del> RON</p>
+            <button class="addToCartBtn">Adaugă în Coș</button>
+        </div>
+
+        <br>
+
+        <div class="Album" data-artist = "Kanye West", data-genre="Hip-Hop">
+            <img class="front" src="/resources/images/8081.webp" alt="8081" width="300">
+            <img class="back" src="/resources/images/8082.webp" alt="8082" width="300">
+            <div class="AlbumInfo"> Kanye West - 808s & Heartbreak (LP)
+            </div>
+                <br>
+                <p>249.99 RON</p>
+            <button class="addToCartBtn">Adaugă în Coș</button>
+        </div>
+
+        <div class="Album" data-artist = "Steve Lacy", data-genre="R&B">
+            <img class="front" src="/resources/images/Gemini1.webp" alt="Gemini1" width="300">
+            <img class="back" src="/resources/images/Gemini2.webp" alt="Gemini2" width="300">
+            <div class="AlbumInfo"> Steve Lacy - Gemini Rights (LP)
+            </div>
+                <br>
+                <p>99.99 RON</p>
+            <button class="addToCartBtn">Adaugă în Coș</button>
+        </div>
+    </div>
+
+    <div class="pagination">
+        <a href="/page3"><</a>
+        <a href="/main" class="active">1</a>
+        <a href="/page2">2</a>
+        <a href="/page3">3</a>
+        <a href="/page2">></a>
+    </div>
+
+    <footer id="footer" class="footer">
+        <%-include("../partials/footer.ejs")%>
+    </footer>
+  
+
+</body>
+</html>
